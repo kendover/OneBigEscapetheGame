@@ -1,5 +1,4 @@
-import 
-function Scene1( ) {
+function Scene1() {
     return (
          <main>
       <h1> One Big Escape!! </h1>

@@ -1,4 +1,4 @@
-import Scene1 from './Scenes/Scene1';
+import Scene1 from './scenes/Scene1';
 import './App.css';
 
 function App() {
