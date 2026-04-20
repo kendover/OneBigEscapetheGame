@@ -1,4 +1,4 @@
-function Scene1() {
+function Distraction() {
     return (
          <main>
       <h1> One Big Escape!! </h1>
@@ -6,16 +6,18 @@ function Scene1() {
           <img src="./graphics/placeholder.png" class="graphic"/> 
           {/* Image for graphic, please try to make sure it's a jpeg or webm for quicker loading times. */}
           
-            <p> You’re in Arete listening to your prof blabber on about Arts and Design, when you receive a text on your phone:
-“Pookie bear, where are you? You didn’t forget about our date, right?” </p>
-            <p> Shoot. You totally forgot. </p>
+            <p> Prof: Hey! No using phones during class hours! </p>
+            <p> You need a distraction! </p>
           
           <ul className="options"> {/* Feel free to add/remove */}
-            <li> <a href="/Distraction"> Continue </a> </li>
+            <li> <a href="/LetItRip"> LET IT RIP!! </a> </li>
+            <li> <a href="/JumpOut"> Jump Out </a> </li>
+            <li> <a href="/GoToTheBathroom"> Go to the bathroom </a> </li>
+            
           </ul>
       
     </main>
     );
 }
 
-export default Scene1;
+export default Distraction;
