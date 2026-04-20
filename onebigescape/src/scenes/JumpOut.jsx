@@ -1,4 +1,4 @@
-function Scene1() {
+function JumpOut() {
     return (
          <main>
       <h1> One Big Escape!! </h1>
@@ -6,16 +6,14 @@ function Scene1() {
           <img src="./graphics/placeholder.png" class="graphic"/> 
           {/* Image for graphic, please try to make sure it's a jpeg or webm for quicker loading times. */}
           
-            <p> You’re in Arete listening to your prof blabber on about Arts and Design, when you receive a text on your phone:
-“Pookie bear, where are you? You didn’t forget about our date, right?” </p>
-            <p> Shoot. You totally forgot. </p>
+            <p> You jumped your classmate, Out Sangsakit. During the commotion, he reveals that he is secretly a beyblade master, and challenges you to a beyblade battle! </p>
           
           <ul className="options"> {/* Feel free to add/remove */}
-            <li> <a href="/Distraction"> Continue </a> </li>
+            <li> <a href="/BadEnding"> Continue... </a> </li>            
           </ul>
       
     </main>
     );
 }
 
-export default Scene1;
+export default JumpOut;
