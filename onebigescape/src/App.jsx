@@ -10,8 +10,17 @@ import BeybladeBattleTrivia from './scenes/BeybladeBattleTrivia';
 
 import LetItRip from './scenes/LetItRip';
 import JumpOut from './scenes/JumpOut';
+
 import Gonz from './scenes/Gonz';
+import PayThePrice from './scenes/PayThePrice';
+import FightTheChef  from './scenes/FightTheChef';
+
 import CTC from './scenes/CTC';
+import Room213 from './scenes/Room213';
+import WrongRoom from './scenes/WrongRoom';
+
+import ReasonWithThem from './scenes/ReasonWithThem';
+import Elevator from './scenes/Elevator';
 
 import BadEnding from './scenes/BadEnding';
 import TrueEnding from './scenes/TrueEnding';
@@ -41,7 +50,16 @@ function App() {
           <Route path="/JumpOut" element={<JumpOut/>}/>
           
           <Route path="/Gonz" element={<Gonz/>}/>
+          <Route path="/PayThePrice" element={<PayThePrice/>}/>
+          <Route path="/FightTheChef" element={<FightTheChef/>}/>
+
           <Route path="/CTC" element={<CTC/>}/>
+          <Route path="/Room213" element={<Room213/>}/>
+          <Route path="/WrongRoom" element={<WrongRoom/>}/>
+
+          <Route path="/ReasonWithThem" element={<ReasonWithThem/>}/>
+<Route path="/Elevator" element={<Elevator/>}/>
+
 
           {/* Endings */}
            <Route path="/BadEnding" element={<BadEnding/>}/>
