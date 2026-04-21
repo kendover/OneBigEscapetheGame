@@ -1,4 +1,4 @@
-function RizLib() {
+function Stairs() {
     return (
          <main>
       <h1> One Big Escape!! </h1>
@@ -16,4 +16,4 @@ function RizLib() {
     );
 }
 
-export default RizLib;
+export default Stairs;

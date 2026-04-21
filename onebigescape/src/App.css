@@ -83,6 +83,16 @@ p {
 	margin: 1em auto;
 }
 
+.white {
+	color: white;
+	border: none;
+}
+
+.white a:hover, .white:hover {
+	background: none;
+	cursor: default;
+}
+
 /* Image fade in */
 
 @keyframes fade-in {
